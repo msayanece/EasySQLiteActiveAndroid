@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sample.sayan.easysqliteactiveandroid">
+
+    <!--DO Add this meta data for active android to work-->
+    <application
+        android:name="com.activeandroid.app.Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--DO Add this meta data for active android to work-->
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="SayanDB" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="4" />
+        <!--DO for speed up finding model classes-->
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.sample.sayan.easysqliteactiveandroid.models.Student, com.sample.sayan.easysqliteactiveandroid.models.Teacher" />
+    </application>
+
+</manifest>
