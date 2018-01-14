@@ -24,7 +24,7 @@
             android:value="SayanDB" />
         <meta-data
             android:name="AA_DB_VERSION"
-            android:value="4" />
+            android:value="5" />
         <!--DO for speed up finding model classes-->
         <meta-data
             android:name="AA_MODELS"

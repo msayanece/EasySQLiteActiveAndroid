@@ -32,17 +32,21 @@ public class Student extends Model {
     @Column(name = "phone")
     public String phone;
 
+    @Column(name = "address")
+    public String address;
+
     public Student() {
         super();
     }
 
-    public Student(String name, String roll, String className, String sectionName, String phone) {
+    public Student(String name, String roll, String className, String sectionName, String phone, String address) {
         super();
         this.name = name;
         this.roll = roll;
         this.className = className;
         this.sectionName = sectionName;
         this.phone = phone;
+        this.address = address;
     }
 
     public static List<Student> getAllStudents() {

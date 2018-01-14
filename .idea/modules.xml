@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EasySQLiteActiveAndroid.iml" filepath="$PROJECT_DIR$/EasySQLiteActiveAndroid.iml" />
+      <module fileurl="file://E:\AndroidAll\PaymentAPISample\EasySQLiteActiveAndroid\EasySQLiteActiveAndroid.iml" filepath="E:\AndroidAll\PaymentAPISample\EasySQLiteActiveAndroid\EasySQLiteActiveAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\AndroidAll\PaymentAPISample\EasySQLiteActiveAndroid\app\app.iml" filepath="E:\AndroidAll\PaymentAPISample\EasySQLiteActiveAndroid\app\app.iml" />
     </modules>
   </component>
 </project>

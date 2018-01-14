@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 //        Student.deleteAllRows();
 //        Student.deleteStudentByRoll("A11");
-//        saveDataToDB();
+        saveDataToDB();
 //        Student.updateStudentNameByRoll("A2", "Amit");
         List<Student> students = Student.getAllStudents();
         Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 student.className = "class" + i;
                 student.sectionName = "section" + i;
                 student.phone = "9863252141" + i;
+                student.address = "abcx" + i;
                 student.save();
             }
             ActiveAndroid.setTransactionSuccessful();
